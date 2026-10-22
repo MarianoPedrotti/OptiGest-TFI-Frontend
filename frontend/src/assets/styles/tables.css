@@ -1,0 +1,55 @@
+.table{
+
+    margin-bottom:0;
+
+}
+
+.table-responsive{
+
+    overflow-x:auto;
+
+    -webkit-overflow-scrolling:touch;
+
+}
+
+.table thead th{
+
+    font-weight:600;
+
+    white-space:nowrap;
+
+}
+
+.table .btn{
+
+    white-space:nowrap;
+
+}
+
+.table tbody tr{
+
+    transition:var(--transition);
+
+}
+
+.table tbody tr:hover{
+
+    background:#fafafa;
+
+}
+
+@media (max-width: 767.98px){
+
+    .table-responsive > .table{
+
+        min-width:560px;
+
+    }
+
+    .table-responsive > .app-data-table{
+
+        min-width:720px;
+
+    }
+
+}
